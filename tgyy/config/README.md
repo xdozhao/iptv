@@ -1,25 +1,47 @@
+# 天光云影配置说明
+
+#### 配置文件
+[default.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/default.json)
+#### 配置说明
+```aiignore
 {
+  // 版本号
   "version": "3.3.7",
+  //时间戳
   "syncAt": 1735309277085,
+  // 配置名称
   "syncFrom": "天光云影配置",
+  //配置描述
   "description": null,
   "configs": {
+    // 开机自启
     "appBootLaunch": false,
     "appPipEnable": false,
     "appLastLatestVersion": "",
     "appAgreementAgreed": true,
     "appStartupScreen": "Dashboard",
+    // 开发者模式
     "debugDeveloperMode": false,
+    // FPS显示
     "debugShowFps": false,
+    // 显示播放器信息
     "debugShowVideoPlayerMetadata": false,
+    // 显示布局网格
     "debugShowLayoutGrids": false,
+    // 直播源缓存时间
     "iptvSourceCacheTime": 86400000,
+    // 当前直播源
     "iptvSourceCurrent": {
+      // 名称
       "name": "默认直播源（IPV6）",
+      // 链接
       "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      // 本地文件
       "isLocal": false,
+      // 转换JS
       "transformJs": null
     },
+    // 直播源列表
     "iptvSourceList": {
       "value": [
         {
@@ -54,11 +76,17 @@
         }
       ]
     },
+    // 频道分组隐藏
     "iptvChannelGroupHiddenList": [],
+    // iptv混合模式
     "iptvHybridMode": "DISABLE",
+    // 相似频道合并
     "iptvSimilarChannelMerge": false,
+    // 频道图标提供
     "iptvChannelLogoProvider": "https://live.fanmingming.cn/tv/{name|uppercase}.png",
+    // // 频道图标提供
     "iptvChannelLogoOverride": false,
+    // iptv频道收藏夹启用
     "iptvChannelFavoriteEnable": true,
     "iptvChannelFavoriteListVisible": false,
     "iptvChannelFavoriteList": {
@@ -121,3 +149,6 @@
   "extraLocalIptvSourceList": {},
   "extraChannelNameAlias": ""
 }
+
+```
+
