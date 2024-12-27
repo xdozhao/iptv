@@ -1,6 +1,6 @@
 {
   "version": "3.3.7",
-  "syncAt": 1735309277085,
+  "syncAt": 1735314450448,
   "syncFrom": "天光云影配置",
   "description": null,
   "configs": {
@@ -58,7 +58,7 @@
     "iptvHybridMode": "DISABLE",
     "iptvSimilarChannelMerge": false,
     "iptvChannelLogoProvider": "https://live.fanmingming.cn/tv/{name|uppercase}.png",
-    "iptvChannelLogoOverride": false,
+    "iptvChannelLogoOverride": true,
     "iptvChannelFavoriteEnable": true,
     "iptvChannelFavoriteListVisible": false,
     "iptvChannelFavoriteList": {
@@ -104,7 +104,12 @@
     "videoPlayerForceAudioSoftDecode": false,
     "videoPlayerStopPreviousMediaItem": false,
     "videoPlayerSkipMultipleFramesOnSameVSync": true,
-    "themeAppCurrent": null,
+    "themeAppCurrent": {
+      "name": "心想事橙",
+      "background": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAHRJREFUGFcBaQCW/wGScBzA/v73/vr9+QD19gEB8voECQGQbyrK+/0A/PH1+wbw9vcW9/z8DwGNbkS89/kNAOnw+hnv9eYf+//wCQGEaYWZ8ff+D+bs5Cru9Nwi+PzqCgGAZbGD8vXuCuXv0inn79Qv+P3vFHi9Qmo/Gx+4AAAAAElFTkSuQmCC",
+      "texture": "https://qqpatch.gtimg.cn/template_theme/texture/1004.svg",
+      "textureAlpha": 0.2
+    },
     "cloudSyncAutoPull": null,
     "cloudSyncProvider": null,
     "cloudSyncGithubGistId": null,

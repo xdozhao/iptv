@@ -14,12 +14,19 @@
   //配置描述
   "description": null,
   "configs": {
+    /////////////////////////////////////////////////////////////////////////
+    ///  应用
+    /////////////////////////////////////////////////////////////////////////
     // 开机自启
     "appBootLaunch": false,
+    // 画中画
     "appPipEnable": false,
     "appLastLatestVersion": "",
     "appAgreementAgreed": true,
     "appStartupScreen": "Dashboard",
+    /////////////////////////////////////////////////////////////////////////
+    ///  调试
+    /////////////////////////////////////////////////////////////////////////
     // 开发者模式
     "debugDeveloperMode": false,
     // FPS显示
@@ -28,6 +35,9 @@
     "debugShowVideoPlayerMetadata": false,
     // 显示布局网格
     "debugShowLayoutGrids": false,
+    /////////////////////////////////////////////////////////////////////////
+    ///  直播源
+    /////////////////////////////////////////////////////////////////////////
     // 直播源缓存时间
     "iptvSourceCacheTime": 86400000,
     // 当前直播源
@@ -84,7 +94,7 @@
     "iptvSimilarChannelMerge": false,
     // 频道图标提供
     "iptvChannelLogoProvider": "https://live.fanmingming.cn/tv/{name|uppercase}.png",
-    // // 频道图标提供
+    // 频道图标提供
     "iptvChannelLogoOverride": false,
     // iptv频道收藏夹启用
     "iptvChannelFavoriteEnable": true,
@@ -95,44 +105,102 @@
     "iptvChannelLastPlay": null,
     "iptvChannelLinePlayableHostList": null,
     "iptvChannelLinePlayableUrlList": null,
+    /////////////////////////////////////////////////////////////////////////
+    ///  控制
+    /////////////////////////////////////////////////////////////////////////
+    // 换台反转
     "iptvChannelChangeFlip": false,
+    // 数字选台
     "iptvChannelNoSelectEnable": true,
+    // 换台列表首尾循环
     "iptvChannelChangeListLoop": false,
+    /////////////////////////////////////////////////////////////////////////
+    ///  节目单
+    /////////////////////////////////////////////////////////////////////////
+    // 节目单启用
     "epgEnable": true,
+    // 自定义节目单
     "epgSourceCurrent": {
       "name": "默认节目单 fanmingming",
       "url": "https://live.fanmingming.cn/e.xml"
     },
+    // 节目单列表
     "epgSourceList": {
       "value": []
     },
+    // 刷新时间阈值
     "epgRefreshTimeThreshold": 2,
+    // 跟随直播源
     "epgSourceFollowIptv": false,
+    //
     "epgChannelReserveList": {
       "value": []
     },
+    /////////////////////////////////////////////////////////////////////////
+    ///  界面
+    /////////////////////////////////////////////////////////////////////////
+    // 节目进度
     "uiShowEpgProgrammeProgress": true,
+    // 常驻节目进度
     "uiShowEpgProgrammePermanentProgress": false,
+    // 台标显示
     "uiShowChannelLogo": true,
+    // 频道预览
     "uiShowChannelPreview": false,
+    // 经典选台界面 三段式结构
     "uiUseClassicPanelScreen": false,
+    // 界面整体缩放比例
     "uiDensityScaleRatio": 0,
+    // 界面字体缩放比例
     "uiFontScaleRatio": 1,
+    // 时间显示
     "uiTimeShowMode": "HIDDEN",
+    // 焦点优化
     "uiFocusOptimize": true,
+    // 超时自动关闭界面 ms
     "uiScreenAutoCloseDelay": 15000,
+    /////////////////////////////////////////////////////////////////////////
+    ///  更新
+    /////////////////////////////////////////////////////////////////////////
+    // 更新强提醒
     "updateForceRemind": false,
+    // 更新通道
     "updateChannel": "stable",
+    /////////////////////////////////////////////////////////////////////////
+    ///  播放器
+    /////////////////////////////////////////////////////////////////////////
+    // 内核
     "videoPlayerCore": "MEDIA3",
+    // 渲染方式
     "videoPlayerRenderMode": "SURFACE_VIEW",
+    // 自定义ua
     "videoPlayerUserAgent": "okhttp",
+    // 自定义headers
     "videoPlayerHeaders": "",
+    // 加载超时
     "videoPlayerLoadTimeout": 15000,
+    // 全局显示模式
     "videoPlayerDisplayMode": "ORIGINAL",
+    // 强制音频软解
     "videoPlayerForceAudioSoftDecode": false,
+    // 停止上一媒体项
     "videoPlayerStopPreviousMediaItem": false,
+    // 跳过多帧渲染
     "videoPlayerSkipMultipleFramesOnSameVSync": true,
-    "themeAppCurrent": null,
+    /////////////////////////////////////////////////////////////////////////
+    ///  主题
+    /////////////////////////////////////////////////////////////////////////
+    // 主题
+     "themeAppCurrent": {
+      "name": "心想事橙",
+      "background": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAAHRJREFUGFcBaQCW/wGScBzA/v73/vr9+QD19gEB8voECQGQbyrK+/0A/PH1+wbw9vcW9/z8DwGNbkS89/kNAOnw+hnv9eYf+//wCQGEaYWZ8ff+D+bs5Cru9Nwi+PzqCgGAZbGD8vXuCuXv0inn79Qv+P3vFHi9Qmo/Gx+4AAAAAElFTkSuQmCC",
+      "texture": "https://qqpatch.gtimg.cn/template_theme/texture/1004.svg",
+      "textureAlpha": 0.2
+    },
+    /////////////////////////////////////////////////////////////////////////
+    ///  云同步
+    /////////////////////////////////////////////////////////////////////////
+    // 自动拉取
     "cloudSyncAutoPull": null,
     "cloudSyncProvider": null,
     "cloudSyncGithubGistId": null,
