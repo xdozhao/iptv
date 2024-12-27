@@ -1,8 +1,14 @@
 # 天光云影配置说明
 
-#### 配置文件
-[default.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/default.json)
-#### 配置说明
+### 配置文件
+##### 实时更新配置：
+[active.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/active.json)
+##### 初始配置：
+[default-v3.3.7.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/default-v3.3.7.json)
+##### 配置-v3.3.7-1735314450448：
+[config-v3.3.7-1735314450448.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config-v3.3.7-1735314450448.json)
+
+### 配置说明
 ```aiignore
 {
   // 版本号
