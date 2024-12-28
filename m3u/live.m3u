@@ -1,14 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="我的",「B站」央视新闻直播直链
-https://live.bilibili.com/21686237
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="我的",「B站」央视新闻直播
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/16e9db1ba58f7e251d6966786994ef50798a9cad.jpg" group-title="我的",「B站」央视新闻直播
 http://dns.yiandrive.com:15907/bilibili/21686237
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护时间：2024-12-28 #佛系维护...
-https://epg.iill.top/v/302.mp4
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",维护内容：维护 Live「优化 抖音 在线判断 / 更改主播有效期为 30 天」
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-name="免费订阅" tvg-logo="https://epg.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",公告说明：在线主播更新周期:15分钟·按需刷新订阅即可.
-https://epg.iill.top/v/301.mp4
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/2650856709fe272aa5cf9c89a053c095d7b252e4.jpg" group-title="我的",「B站」央视频
+http://dns.yiandrive.com:15907/bilibili/21623527
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/bc9054b679e187858daa6004633d0f45654b99ae.jpg" group-title="我的",「B站」央视网
+http://dns.yiandrive.com:15907/bilibili/8178490
+#EXTINF:-1 tvg-logo="https://i0.hdslb.com/bfs/face/26ba4fbc996b05be9aa6c883d1f64c734f6ef313.jpg" group-title="我的",「B站」四川观察
+http://dns.yiandrive.com:15907/bilibili/22550437
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/ae921ed48361371764d99202d37e34ffa6616f5b.jpg" group-title="我的",「B站」游戏动力VGN
+http://dns.yiandrive.com:15907/bilibili/740
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/f7bfa3284a989f3e98557b31d44aabe352ab9f21.jpg" group-title="我的",「B站」品诺美食开课啦
+http://dns.yiandrive.com:15907/bilibili/22037951
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/43d0e1f1dc2703d278c9caae5efcd1970cdde197.jpg" group-title="我的",「B站」蜜雪冰城官方站
+http://dns.yiandrive.com:15907/bilibili/25178980
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/5958bb6814f25d832775ca37043d38f893b4a478.jpg" group-title="我的",「B站」烛不遥
+http://dns.yiandrive.com:15907/bilibili/26376408
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/f3712824d3ff3650d50911cd2308fb633a4f6b91.jpg" group-title="我的",「B站」宴宁ccccc
+http://dns.yiandrive.com:15907/bilibili/7953876
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/ad94e7712cae1e8b019e15bdef14e56e859eab44.jpg" group-title="我的",「B站」多多poi丶
+http://dns.yiandrive.com:15907/bilibili/392523
+#EXTINF:-1 tvg-logo="https://i1.hdslb.com/bfs/face/8a5de2d7486251e80307d8600cbf8649eb4035fe.jpg" group-title="我的",「B站」逍遥散人
+http://dns.yiandrive.com:15907/bilibili/1017
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•游戏「赛事」",「B站」热门赛事
 http://dns.yiandrive.com:16813/bilibili/10
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•游戏「赛事」",「B站」CS 2
@@ -119,52 +131,6 @@ http://dns.yiandrive.com:15907/douyu/1997723
 http://dns.yiandrive.com:15907/douyu/7722576
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/斗鱼.png" group-title="•游戏「赛事」",「斗鱼」跑跑卡丁车•手游
 http://dns.yiandrive.com:15907/douyu/6672862
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/抖音.png" group-title="•抖音「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/虎牙.png" group-title="•虎牙「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/斗鱼.png" group-title="•斗鱼「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•B站「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/歪歪.png" group-title="•歪歪「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/SOOP.png" group-title="•SOOP「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/Twitch.png" group-title="•Twitch「娱乐」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/抖音.png" group-title="•抖音「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/虎牙.png" group-title="•虎牙「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/斗鱼.png" group-title="•斗鱼「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•B站「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/SOOP.png" group-title="•SOOP「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/Twitch.png" group-title="•Twitch「游戏」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/抖音.png" group-title="•抖音「影视」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/虎牙.png" group-title="•虎牙「影视」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/斗鱼.png" group-title="•斗鱼「影视」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•B站「影视」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/歪歪.png" group-title="•歪歪「影视」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/抖音.png" group-title="•抖音「其他」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/虎牙.png" group-title="•虎牙「其他」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/斗鱼.png" group-title="•斗鱼「其他」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/哔哩哔哩.png" group-title="•B站「其他」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
-#EXTINF:-1 tvg-logo="https://epg.iill.top/logo/歪歪.png" group-title="•歪歪「其他」",点击此频道·查看重要信息！🔔
-https://epg.iill.top/v/301.mp4
 #INSERT_HERE
 #EXTINF:-1 tvg-logo="https://tv.iill.top/LOGO/31604663&bilibili&logo" group-title="•B站「其他」",三好的小鱼干
 http://dns.yiandrive.com:15907/bilibili/31604663
