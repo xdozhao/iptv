@@ -35,6 +35,12 @@
           "transformJs": null
         },
         {
+          "name": "(Static)bilibili",
+          "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/goodiptv.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
           "name": "默认直播源（IPV6）",
           "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
           "isLocal": false,
@@ -49,6 +55,18 @@
         {
           "name": "网络直播",
           "url": "https://tv.iill.top/m3u/Live",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "bilibili",
+          "url": "https://www.goodiptv.club/bililive.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "AKTV",
+          "url": "http://live.aktv.top/live.m3u",
           "isLocal": false,
           "transformJs": null
         }
