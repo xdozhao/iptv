@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "syncAt": 1735377821263,
+  "version": "1.0.1",
+  "syncAt": 1735314450448,
   "syncFrom": "天光云影配置",
   "description": null,
   "configs": {
@@ -8,32 +8,20 @@
     "appPipEnable": false,
     "appLastLatestVersion": "",
     "appAgreementAgreed": true,
-    "appStartupScreen": "Live",
+    "appStartupScreen": "Dashboard",
     "debugDeveloperMode": false,
     "debugShowFps": false,
     "debugShowVideoPlayerMetadata": false,
     "debugShowLayoutGrids": false,
     "iptvSourceCacheTime": 86400000,
     "iptvSourceCurrent": {
-      "name": "我的电视源",
-      "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/ipv6.m3u",
+      "name": "默认直播源（IPV6）",
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
       "isLocal": false,
       "transformJs": null
     },
     "iptvSourceList": {
       "value": [
-        {
-          "name": "我的电视源",
-          "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/ipv6.m3u",
-          "isLocal": false,
-          "transformJs": null
-        },
-        {
-          "name": "我的直播源",
-          "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/live.m3u",
-          "isLocal": false,
-          "transformJs": null
-        },
         {
           "name": "默认直播源（IPV6）",
           "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
@@ -49,6 +37,18 @@
         {
           "name": "网络直播",
           "url": "https://tv.iill.top/m3u/Live",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "体育直播",
+          "url": "https://tv.iill.top/m3u/Sport",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "MyTV直播",
+          "url": "https://tv.iill.top/m3u/MyTV",
           "isLocal": false,
           "transformJs": null
         }
@@ -111,12 +111,12 @@
       "textureAlpha": 0.2
     },
     "cloudSyncAutoPull": null,
-    "cloudSyncProvider": "NETWORK_URL",
+    "cloudSyncProvider": null,
     "cloudSyncGithubGistId": null,
     "cloudSyncGithubGistToken": null,
     "cloudSyncGiteeGistId": null,
     "cloudSyncGiteeGistToken": null,
-    "cloudSyncNetworkUrl": "https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/active.json",
+    "cloudSyncNetworkUrl": null,
     "cloudSyncLocalFilePath": null,
     "cloudSyncWebDavUrl": null,
     "cloudSyncWebDavUsername": null,

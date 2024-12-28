@@ -1,12 +1,15 @@
 # 天光云影配置说明
 
 ### 配置文件
-##### 实时更新配置：
-[active.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/active.json)
-##### 初始配置：
-[default-v3.3.7.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/default-v3.3.7.json)
-##### 配置-v3.3.7-1735314450448：
-[config-v3.3.7-1735314450448.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config-v3.3.7-1735314450448.json)
+##### 实时更新配置：[active.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/active.json)
+##### 初始配置：天光云影默认的配置 [default-v3.3.7.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config/default-v3.3.7.json)
+##### config-v1.0.1.json：[config-v1.0.1.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config-v1.0.1.json)
+1. 添加 [YanG-1989](https://yang-1989.eu.org) 电视直播、网络直播、体育直播、MyTV直播源
+2. 添加[fanmingming.cn](https://live.fanmingming.com)直播源
+##### config-v1.0.2.json：[config-v1.0.2.json](https://gitee.com/xdozhao/iptv/raw/master/tgyy/config-v1.0.2.json)
+1. 添加我的电视源[ipv6.m3u](https://gitee.com/xdozhao/iptv/raw/master/m3u/ipv6.m3u)
+2. 添加我的直播源[live.m3u](https://gitee.com/xdozhao/iptv/raw/master//m3u/live.m3u)
+3. 删除 [YanG-1989](https://yang-1989.eu.org)体育直播、MyTV直播源
 
 ### 配置说明
 ```aiignore
@@ -29,6 +32,7 @@
     "appPipEnable": false,
     "appLastLatestVersion": "",
     "appAgreementAgreed": true,
+    // 打开直接进入直播 Live(是) Dashboard(否)
     "appStartupScreen": "Dashboard",
     /////////////////////////////////////////////////////////////////////////
     ///  调试
