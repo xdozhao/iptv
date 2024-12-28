@@ -36,7 +36,7 @@
         },
         {
           "name": "(Static)bilibili",
-          "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/goodiptv.m3u",
+          "url": "https://gitee.com/xdozhao/iptv/raw/master/m3u/bilibili.m3u",
           "isLocal": false,
           "transformJs": null
         },
