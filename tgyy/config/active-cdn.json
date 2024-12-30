@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "syncAt": 1735377821263,
+  "version": "1.0.4",
+  "syncAt": 1735552699036,
   "syncFrom": "天光云影配置",
   "description": null,
   "configs": {
@@ -16,7 +16,7 @@
     "iptvSourceCacheTime": 86400000,
     "iptvSourceCurrent": {
       "name": "我的电视源",
-      "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/ipv6.m3u",
+      "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/ipv6.m3u",
       "isLocal": false,
       "transformJs": null
     },
@@ -24,13 +24,25 @@
       "value": [
         {
           "name": "我的电视源",
-          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/ipv6.m3u",
+          "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/ipv6.m3u",
           "isLocal": false,
           "transformJs": null
         },
         {
           "name": "我的直播源",
-          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/live.m3u",
+          "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/live.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "我的直播源-iill",
+          "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/live-iill.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "(Static)bilibili",
+          "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/bilibili.m3u",
           "isLocal": false,
           "transformJs": null
         },
@@ -49,6 +61,18 @@
         {
           "name": "网络直播",
           "url": "https://tv.iill.top/m3u/Live",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "bilibili",
+          "url": "https://www.goodiptv.club/bililive.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "AKTV",
+          "url": "http://live.aktv.top/live.m3u",
           "isLocal": false,
           "transformJs": null
         }
@@ -116,7 +140,7 @@
     "cloudSyncGithubGistToken": null,
     "cloudSyncGiteeGistId": null,
     "cloudSyncGiteeGistToken": null,
-    "cloudSyncNetworkUrl": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config/active.json",
+    "cloudSyncNetworkUrl": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/tgyy/config/active-cdn.json",
     "cloudSyncLocalFilePath": null,
     "cloudSyncWebDavUrl": null,
     "cloudSyncWebDavUsername": null,

@@ -1,14 +1,26 @@
 # 天光云影配置说明
 
 ### 配置文件
-##### 实时更新配置：[active.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//tgyy/config/active.json)
-##### 初始配置：天光云影默认的配置 [default-v3.3.7.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//tgyy/config/default-v3.3.7.json)
-##### config-v1.0.1.json：[config-v1.0.1.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//tgyy/config-v1.0.1.json)
+##### 实时更新配置：[active.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config/active.json)
+##### 初始配置：天光云影默认的配置 [default-v3.3.7.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config/default-v3.3.7.json)
+##### config-v1.0.1.json：[config-v1.0.1.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config-v1.0.1.json)
 1. 添加 [YanG-1989](https://yang-1989.eu.org) 电视直播、网络直播、体育直播、MyTV直播源
 2. 添加[fanmingming.cn](https://live.fanmingming.com)直播源
-##### config-v1.0.2.json：[config-v1.0.2.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//tgyy/config-v1.0.2.json)
-1. 添加我的电视源[ipv6.m3u](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//m3u/ipv6.m3u)
-2. 添加我的直播源[live.m3u](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master///m3u/live.m3u)
+##### config-v1.0.2.json：[config-v1.0.2.json](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config-v1.0.2.json)
+1. 添加我的电视源[ipv6.m3u](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/ipv6.m3u)
+2. 添加我的直播源[live.m3u](https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/live.m3u)
+3. 删除 [YanG-1989](https://yang-1989.eu.org)体育直播、MyTV直播源
+
+### 配置文件CDN
+#### https://cdn.jsdelivr.net
+##### 实时更新配置：[active-cdn.json](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/tgyy/config/active-cdn.json)
+##### 初始配置：天光云影默认的配置 [default-v3.3.7.json](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/tgyy/config/default-v3.3.7.json)
+##### config-v1.0.1.json：[config-v1.0.1.json](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/tgyy/config-v1.0.1.json)
+1. 添加 [YanG-1989](https://yang-1989.eu.org) 电视直播、网络直播、体育直播、MyTV直播源
+2. 添加[fanmingming.cn](https://live.fanmingming.com)直播源
+##### config-v1.0.2.json：[config-v1.0.2.json](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/tgyy/config-v1.0.2.json)
+1. 添加我的电视源[ipv6.m3u](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/ipv6.m3u)
+2. 添加我的直播源[live.m3u](https://cdn.jsdelivr.net/gh/xdozhao/iptv@master/m3u/live.m3u)
 3. 删除 [YanG-1989](https://yang-1989.eu.org)体育直播、MyTV直播源
 
 ### 配置说明

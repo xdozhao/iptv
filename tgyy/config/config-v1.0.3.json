@@ -16,7 +16,7 @@
     "iptvSourceCacheTime": 86400000,
     "iptvSourceCurrent": {
       "name": "我的电视源",
-      "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//m3u/ipv6.m3u",
+      "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/ipv6.m3u",
       "isLocal": false,
       "transformJs": null
     },
@@ -24,19 +24,19 @@
       "value": [
         {
           "name": "我的电视源",
-          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//m3u/ipv6.m3u",
+          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/ipv6.m3u",
           "isLocal": false,
           "transformJs": null
         },
         {
           "name": "我的直播源",
-          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//m3u/live.m3u",
+          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/live.m3u",
           "isLocal": false,
           "transformJs": null
         },
         {
           "name": "(Static)bilibili",
-          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//m3u/bilibili.m3u",
+          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/bilibili.m3u",
           "isLocal": false,
           "transformJs": null
         },
@@ -134,7 +134,7 @@
     "cloudSyncGithubGistToken": null,
     "cloudSyncGiteeGistId": null,
     "cloudSyncGiteeGistToken": null,
-    "cloudSyncNetworkUrl": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master//tgyy/config/active.json",
+    "cloudSyncNetworkUrl": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/tgyy/config/active.json",
     "cloudSyncLocalFilePath": null,
     "cloudSyncWebDavUrl": null,
     "cloudSyncWebDavUsername": null,
