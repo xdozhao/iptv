@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "syncAt": 1735552699036,
+  "version": "20241231",
+  "syncAt": 1735632181309,
   "syncFrom": "天光云影配置",
   "description": null,
   "configs": {
@@ -31,6 +31,12 @@
         {
           "name": "我的直播源",
           "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/live.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "我的直播源-iill",
+          "url": "https://raw.githubusercontent.com/xdozhao/iptv/refs/heads/master/m3u/live-iill.m3u",
           "isLocal": false,
           "transformJs": null
         },
