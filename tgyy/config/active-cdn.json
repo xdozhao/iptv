@@ -1,6 +1,6 @@
 {
   "version": "20241231",
-  "syncAt": 1735632181309,
+  "syncAt": 1735637572187,
   "syncFrom": "天光云影配置-CDN",
   "description": null,
   "configs": {
@@ -25,6 +25,12 @@
         {
           "name": "我的电视源",
           "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@refs/heads/master/m3u/ipv6.m3u",
+          "isLocal": false,
+          "transformJs": null
+        },
+        {
+          "name": "我的电视源",
+          "url": "https://cdn.jsdelivr.net/gh/xdozhao/iptv@refs/heads/master/m3u/gather.m3u",
           "isLocal": false,
           "transformJs": null
         },
